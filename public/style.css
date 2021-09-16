@@ -15,10 +15,17 @@
     max-width: 900px;
     margin: 0 auto;
     border-radius: 10px;
+    display: flex;
 }
 
 .header i{
     font-size: 35px;
     color: #fff;
     padding: 15px 15px;
+}
+
+.header h2{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 1%;
 }
