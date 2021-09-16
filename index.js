@@ -12,7 +12,7 @@ let tasks = ['estudar estrutura de dados', 'arrumar o quarto']
 
 app.get('/', (req, res)=>{
     
-    res.render('index', {})
+    res.render('index', {tasksList:tasks})
 
 })
 
