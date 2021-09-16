@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    background-color: #fff;
+}
+
+.header{
+    height: 10vh;
+    background-color: #222;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.header i{
+    font-size: 35px;
+    color: #fff;
+    padding: 15px 15px;
+}
