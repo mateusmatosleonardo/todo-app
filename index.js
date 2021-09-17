@@ -16,6 +16,15 @@ app.get('/', (req, res)=>{
 
 })
 
+app.get('/del/:id', (req, res)=>{
+    tasks = tasks.filter((val, index)=>{
+        if(index != req.params.id){
+            return val
+        }
+    })
+    res.render('index', {tasksList:tasks})
+})
+
 app.listen(8080, ()=>{
     console.log('server no ar')
 })
