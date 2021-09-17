@@ -29,3 +29,47 @@
     font-family: 'Poppins', sans-serif;
     padding: 14px 1%;
 }
+
+.tasks{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.tasks h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.tasks h4{
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    padding: 7px;
+}
+
+.tasks input[type=text]{
+    padding: 4px;
+}
+
+.tasks input[type=submit]{
+    padding: 4px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+}
+
+.container-tasks{
+    padding: 20px 0;
+}
+
+.container-tasks p{
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #ccc;
+}
+
+.container-tasks i{
+    padding: 0 15px;
+    color: #222;
+}
+
