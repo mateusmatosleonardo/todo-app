@@ -17,6 +17,21 @@
             </div><!--logo-header-->
                 <h2>TODO APP</h2>
         </div><!--header--> 
+
+        <div class="tasks">
+            <div class="title">
+                <h2>Tarefas <h4>Cadastrar</h4></h2>
+            </div>
+                <form method="POST">
+                    <input type="text" name="task">
+                    <input type="submit" name="acao" value="Inserir">
+                </form>
+            <div class="container-tasks">
+                <% for(let i = 0; i < tasksList.length; i++){ %>
+                    <p><%= tasksList[i]%><a href="/del/<%= i %>"><i class="fa fa-trash-o" aria-hidden="true"></i></a></p>
+                <% } %>    
+            </div>
+        </div>
     </div><!--main-->
 </body>
 </html>
