@@ -10,6 +10,10 @@ app.set('views', path.join(__dirname, '/views'));
 
 let tasks = ['estudar estrutura de dados', 'arrumar o quarto']
 
+app.post('/', (req, res)=>{
+    console.log(req.body.task)
+})
+
 app.get('/', (req, res)=>{
     
     res.render('index', {tasksList:tasks})
